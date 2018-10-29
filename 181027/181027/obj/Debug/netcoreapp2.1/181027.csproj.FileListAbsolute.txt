@@ -32,3 +32,4 @@ C:\Users\Phuong Anh\Desktop\.Net MVC\181027\181027\obj\Debug\netcoreapp2.1\18102
 C:\Users\Phuong Anh\Desktop\.Net MVC\181027\181027\obj\Debug\netcoreapp2.1\181027.csproj.CopyComplete
 C:\Users\Phuong Anh\Desktop\.Net MVC\181027\181027\obj\Debug\netcoreapp2.1\Razor\Views\Student\Create.g.cshtml.cs
 C:\Users\Phuong Anh\Desktop\.Net MVC\181027\181027\obj\Debug\netcoreapp2.1\Razor\Views\Student\Index.g.cshtml.cs
+C:\Users\Phuong Anh\Desktop\.Net MVC\181027\181027\obj\Debug\netcoreapp2.1\Razor\Views\Student\Edit.g.cshtml.cs

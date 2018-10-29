@@ -17,7 +17,7 @@ namespace _181027.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("/Student")]
         public IActionResult Index()
         {
             return View(_context.Students.ToList());
@@ -33,12 +33,22 @@ namespace _181027.Controllers
         {
             _context.Students.Add(student);
             _context.SaveChanges();
-            //return new JsonResult(student);
             return RedirectToAction("Index");
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Update(long id, Student student)
+        [HttpGet("/Student/{id:int}")]
+        public IActionResult GetById(long id)
+        {
+            var item = _context.Students.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+
+        [HttpPut("/Student/{id:int}")]
+        public ActionResult<Student> Edit(long id, Student student)
         {
             var obj = _context.Students.Find(id);
             if (obj == null)
@@ -51,13 +61,12 @@ namespace _181027.Controllers
 
             _context.Students.Update(obj);
             _context.SaveChanges();
-            return RedirectToAction("Index");
+            return new JsonResult(_context);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("/Student/{id:int}")]
         public IActionResult Delete(long id)
         {
-            Debug.WriteLine(id);
             var obj = _context.Students.Find(id);
             if (obj == null)
             {
@@ -66,7 +75,7 @@ namespace _181027.Controllers
 
             _context.Students.Remove(obj);
             _context.SaveChanges();
-            return RedirectToAction("Index");
+            return new JsonResult(_context.Students.Find(id));
         }
     }
 }
