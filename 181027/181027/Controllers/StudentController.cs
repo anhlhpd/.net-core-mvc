@@ -15,9 +15,16 @@ namespace _181027.Controllers
         public StudentController(StudentContext context)
         {
             _context = context;
+            if (!_context.Students.Any())
+            {
+                _context.Students.Add(new Student
+                {
+                    Name = "Xuan Hung",
+                    RollNumber = "A001"
+                });
+            }
         }
-
-        [HttpGet("/Student")]
+        
         public IActionResult Index()
         {
             return View(_context.Students.ToList());
@@ -27,16 +34,14 @@ namespace _181027.Controllers
         {
             return View();
         }
-
-        [HttpPost]
+        
         public IActionResult Store(Student student)
         {
             _context.Students.Add(student);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
-
-        [HttpGet("/Student/{id:int}")]
+        
         public IActionResult GetById(long id)
         {
             var item = _context.Students.Find(id);
@@ -46,11 +51,20 @@ namespace _181027.Controllers
             }
             return View(item);
         }
-
-        [HttpPut("/Student/{id:int}")]
-        public ActionResult<Student> Edit(long id, Student student)
+        
+        public ActionResult<Student> Edit(long id)
         {
             var obj = _context.Students.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+        
+        public IActionResult Update(Student student)
+        {
+            var obj = _context.Students.Find(student.Id);
             if (obj == null)
             {
                 return NotFound();
@@ -61,21 +75,22 @@ namespace _181027.Controllers
 
             _context.Students.Update(obj);
             _context.SaveChanges();
-            return new JsonResult(_context);
+            return Redirect("Index");
         }
 
-        [HttpDelete("/Student/{id:int}")]
-        public IActionResult Delete(long id)
+        [HttpDelete]
+        public async Task<IActionResult> Delete(long id)
         {
-            var obj = _context.Students.Find(id);
+            var obj = await _context.Students.FindAsync(id);
             if (obj == null)
             {
                 return NotFound();
             }
 
             _context.Students.Remove(obj);
-            _context.SaveChanges();
-            return new JsonResult(_context.Students.Find(id));
+            await _context.SaveChangesAsync();
+            //return new JsonResult(_context.Students.Find(id));
+            return Redirect("Index");
         }
     }
 }
