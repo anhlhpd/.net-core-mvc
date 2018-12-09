@@ -33,8 +33,8 @@
           "Exam_Q2.dll": {}
         },
         "resources": {
-          "vi/Exam_Q2.resources.dll": {
-            "locale": "vi"
+          "Vi/Exam_Q2.resources.dll": {
+            "locale": "Vi"
           }
         },
         "compile": {

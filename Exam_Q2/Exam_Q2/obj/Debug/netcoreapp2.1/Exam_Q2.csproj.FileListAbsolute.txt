@@ -39,7 +39,5 @@ C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Raz
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\bin\Debug\netcoreapp2.1\Vi\Exam_Q2.resources.dll
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Vi\Exam_Q2.resources.dll
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SelectLanguagePartial.g.cshtml.cs
-C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Views.Shared._Layout.resources
-C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.ViewsModel.Resource.resources
-C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Views.Shared._Layout.vi.resources
-C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.ViewsModel.Resource.Vi.resources
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Views.Users.Create.resources
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Views.Users.Create.Vi.resources

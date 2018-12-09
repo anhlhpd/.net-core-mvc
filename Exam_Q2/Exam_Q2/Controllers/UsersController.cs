@@ -8,15 +8,18 @@ using Microsoft.EntityFrameworkCore;
 using Exam_Q2.Models;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Localization;
 
 namespace Exam_Q2.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly IStringLocalizer<UsersController> _localizer;
         private readonly UserContext _context;
 
-        public UsersController(UserContext context)
+        public UsersController(IStringLocalizer<UsersController> localizer, UserContext context)
         {
+            _localizer = localizer;
             _context = context;
         }
 
@@ -47,6 +50,7 @@ namespace Exam_Q2.Controllers
         // GET: Users/Create
         public IActionResult Create()
         {
+            ViewData["Title"] = _localizer["CreateUser"];
             return View();
         }
 

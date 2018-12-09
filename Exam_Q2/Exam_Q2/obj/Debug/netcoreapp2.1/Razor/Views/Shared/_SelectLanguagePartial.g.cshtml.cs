@@ -140,12 +140,12 @@ WriteAttributeValue(" ", 731, requestCulture?.Provider?.GetType().Name, 732, 41,
             WriteLiteral(">\r\n        ");
             EndContext();
             BeginContext(785, 517, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "483b1c20c9ba4959bc6294135b29b6de", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc9ec5074c214d8b8b6015d58158969d", async() => {
                 BeginContext(967, 14, true);
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(981, 108, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623f55a7259c47fa97c39147ffb80e60", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a699837ee23b4f4b93e9e785958fc406", async() => {
                     BeginContext(1059, 22, false);
 #line 21 "C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\Views\Shared\_SelectLanguagePartial.cshtml"
                                                                                     Write(Localizer["Language:"]);
@@ -176,7 +176,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(1103, 182, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13bd7f316e0e47659a983f56420b8042", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b60f6dad76804f438817ba75679e9320", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();

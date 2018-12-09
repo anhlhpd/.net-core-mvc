@@ -11,17 +11,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\ViewsModel\Resource.Designer.cs">
+    <Compile Update="Resources\Views.Users.Create.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Resource.resx</DependentUpon>
+      <DependentUpon>Views.Users.Create.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\ViewsModel\Resource.resx">
+    <EmbeddedResource Update="Resources\Views.Users.Create.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <LastGenOutput>Views.Users.Create.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
