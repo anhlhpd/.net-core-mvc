@@ -23,8 +23,33 @@ using Exam_Q2.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\Views\_ViewImports.cshtml"
+using Exam_Q2.Resources;
+
+#line default
+#line hidden
+#line 4 "C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\Views\_ViewImports.cshtml"
+using Exam_Q2.Controllers;
+
+#line default
+#line hidden
+#line 7 "C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\Views\_ViewImports.cshtml"
+using Microsoft.Extensions.Configuration;
+
+#line default
+#line hidden
+#line 8 "C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Authorization;
+
+#line default
+#line hidden
+#line 9 "C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Mvc.Localization;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c9633984be9211c7ffa6a0994f378ebb74788ed9", @"/Views/Users/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d4f75d680e9e25b42d6f92f084ad3c36f448a3a8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d3b5f556c0ad27d9534363e7bb4bca722747e99c", @"/Views/_ViewImports.cshtml")]
     public class Views_Users_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Exam_Q2.Models.User>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Edit", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -144,7 +169,7 @@ using Exam_Q2.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(869, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9d8b7202bfd4d43ab9ecbaede5a6372", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36abd23039ed47a2842a51354ea5dbb2", async() => {
                 BeginContext(915, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -179,7 +204,7 @@ using Exam_Q2.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(931, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10965bd061d64934b6d2b80778a98730", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9eae3b7c85f94dbe9722bbef065d648c", async() => {
                 BeginContext(953, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();
@@ -202,6 +227,12 @@ using Exam_Q2.Models;
             EndContext();
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public IViewLocalizer Localizer { get; private set; }
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public IAuthorizationService AuthorizationService { get; private set; }
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public IConfiguration Configuration { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

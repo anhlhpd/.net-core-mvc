@@ -126,13 +126,10 @@
   <data name="FirstName" xml:space="preserve">
     <value>Tên</value>
   </data>
-  <data name="FirstNameRequired" xml:space="preserve">
-    <value>Không được bỏ trống tên</value>
+  <data name="Hello" xml:space="preserve">
+    <value>Xin chào</value>
   </data>
   <data name="LastName" xml:space="preserve">
     <value>Họ</value>
-  </data>
-  <data name="LastNameRequired" xml:space="preserve">
-    <value>Không được bỏ trống họ</value>
   </data>
 </root>

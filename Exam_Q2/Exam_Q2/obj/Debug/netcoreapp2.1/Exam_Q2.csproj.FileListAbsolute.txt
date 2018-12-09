@@ -3,7 +3,6 @@ C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\bin\Debug\netcoreapp2.1\Exa
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\bin\Debug\netcoreapp2.1\Exam_Q2.runtimeconfig.dev.json
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\bin\Debug\netcoreapp2.1\Exam_Q2.dll
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.csprojAssemblyReference.cache
-C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Resource.resources
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.csproj.GenerateResource.cache
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.csproj.CoreCompileInputs.cache
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.RazorAssemblyInfo.cache
@@ -37,6 +36,10 @@ C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Raz
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Razor\Views\Users\Details.g.cshtml.cs
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Razor\Views\Users\Edit.g.cshtml.cs
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Razor\Views\Users\Index.g.cshtml.cs
-C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Resource.Vi.resources
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\bin\Debug\netcoreapp2.1\Vi\Exam_Q2.resources.dll
 C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Vi\Exam_Q2.resources.dll
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SelectLanguagePartial.g.cshtml.cs
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Views.Shared._Layout.resources
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.ViewsModel.Resource.resources
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.Views.Shared._Layout.vi.resources
+C:\Users\Phuong Anh\Desktop\.Net MVC\Exam_Q2\Exam_Q2\obj\Debug\netcoreapp2.1\Exam_Q2.Resources.ViewsModel.Resource.Vi.resources

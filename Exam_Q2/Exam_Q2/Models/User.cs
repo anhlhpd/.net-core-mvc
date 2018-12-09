@@ -1,4 +1,4 @@
-﻿using Exam_Q2.Resources;
+﻿using Exam_Q2.Resources.ViewsModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -11,14 +11,12 @@ namespace Exam_Q2.Models
     {
         public long Id { get; set; }
         [Display(Name = "FirstName", ResourceType = typeof(Resource))]
-        [Required(ErrorMessageResourceType = typeof(Resource), ErrorMessageResourceName = "FirstNameRequired")]
         public string FirstName { get; set; }
         [Display(Name = "LastName", ResourceType = typeof(Resource))]
-        [Required(ErrorMessageResourceType = typeof(Resource), ErrorMessageResourceName = "LastNameRequired")]
         public string LastName { get; set; }
+        [Display(Name = "Age", ResourceType = typeof(Resource))]
         public int Age { get; set; }
         [Display(Name = "Email", ResourceType = typeof(Resource))]
-        [Required(ErrorMessageResourceType = typeof(Resource))]
         public string Email { get; set; }
     }
 }
